@@ -2,7 +2,7 @@ name: "MyDaily"
 
 on:
   schedule:
-    - cron: "0 8 * * *"  # scheduled at 16:00 (UTC+8) everyday
+    - cron: "0 5 * * *"  # scheduled at 16:00 (UTC+8) everyday
   workflow_dispatch:
 
 env:
