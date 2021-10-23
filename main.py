@@ -65,7 +65,7 @@ if __name__ == '__main__':
                         format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
     uid, pwd = sys_argv[1].strip().split(' ')
     location = fudan_daily(uid, pwd)
-    sckey = 'SCT60274TqkzqfNhqK8CyKLXZGduIlKt0'#在发送消息页面可以找到
+    sckey = 'SCT75745TJHjyEX14htmvXFR4AuIgBF9J'#在发送消息页面可以找到
     #text为推送的title
     url = 'https://sc.ftqq.com/{}.send?text=打卡成功,打卡地址是{}'.format(sckey,location)
     requests.get(url)
